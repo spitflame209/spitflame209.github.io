@@ -2,11 +2,27 @@ html {
     scroll-behavior: smooth;
 }
 
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: white;
+    }
+  }
+
 body {
     font-size: 10px;
     margin: 0;
     height: 100%;
     background-color: rgb(97, 119, 141);
+}
+
+a {
+    color:rgb(185, 188, 190);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(185, 188, 190);
+    text-decoration: none;
 }
 
 .navigation {
@@ -50,25 +66,38 @@ body {
 #projects {
     padding-top: 3rem;
     margin-top: 3rem;
+    padding-bottom: 3rem;
 }
 
 .projects-section {
     height: 100vh;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    grid-gap: 2rem;
-    text-align: center;
     align-content: center;
-    padding: 10%;
+    display: grid;
+    padding: 1rem;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-auto-rows: 280px;
     background-color:  rgb(76, 100, 124);
 }
 
 .project-tile {
     background-color: rgb(185, 188, 190);
-    padding: 1rem;
-    height: 120px;
+    text-align: center;
+    font-size: 1.4rem;
+    overflow: none;
 }
+
+.project-tile h2 {
+    color: rgb(76, 100, 124);
+    margin: 0;
+}
+
+.project-tile img {
+    width: 90%;
+    height: 90%;
+    object-fit: contain;
+}
+
 
 #profiles {
     padding-top: 3rem;
