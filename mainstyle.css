@@ -38,9 +38,9 @@ a:visited {
     display: block;
     color: rgb(185, 188, 190);
     text-align: center;
-    padding: 1rem 3rem 1rem;
+    padding: 1rem 1rem 1rem;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 16px;
     float: right;
 }
 
@@ -106,11 +106,11 @@ a:visited {
 
 .profiles {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    grid-auto-rows: 2rem;
     grid-gap: 1rem;
-    text-align: center;
-    align-content: center;
     background-color:  rgb(185, 188, 190);
+    text-align: center;
 }
 
 .profile-link {
