@@ -98,6 +98,13 @@ a:visited {
     
 }
 
+.profile-header {
+    display: block;
+    margin: 3rem;
+    text-align: center;
+    font-size: 1.4rem;
+    color:rgb(185, 188, 190)
+}
 
 #profiles {
     padding-top: 3rem;
