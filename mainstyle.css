@@ -114,9 +114,11 @@ a:visited {
 }
 
 .project-tile h2 {
-    color:rgb(185, 188, 190);
+    color: white;
     background-color: rgb(97, 119, 141);
-    font-size: 1.6rem;
+    font-size: 1.8rem;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 
 .profile-header {
