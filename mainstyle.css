@@ -25,6 +25,7 @@ a:visited {
     text-decoration: none;
 }
 
+
 .navigation {
     overflow: hidden;
     position: fixed;
@@ -65,8 +66,7 @@ a:visited {
 
 #projects {
     padding-top: 3rem;
-    margin-top: 3rem;
-    padding-bottom: 3rem;
+    margin-top: -3rem;
 }
 
 .projects-section {
@@ -75,27 +75,48 @@ a:visited {
     display: grid;
     padding: 1rem;
     gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    grid-template-rows: auto;
+    grid-template-columns: repeat(auto-fit, minmax(40vw, 1fr));
+    grid-template-rows: 40vh 40vh;
     background-color:  rgb(76, 100, 124);
 }
 
+.tribute {
+    background-image: url(profilepageassets/Tributepagesnip.png);    
+    background-size: cover;
+    background-position: center;
+}
+
+.survey {
+    background-image: url(profilepageassets/Surveypagesnip.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.product {
+    background-image: url(profilepageassets/ProductPage.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.techdoc {
+    background-image: url(profilepageassets/TechDocpagesnip.png);
+    background-size: cover;
+    background-position: center;
+}
+
 .project-tile {
-    background-color: rgb(185, 188, 190);
+    border-style: solid;
+    border-color: rgb(97, 119, 141);
+    border-radius: 10px;
+    display: grid;
+    align-items: center;
     text-align: center;
-    vertical-align: middle;
-    font-size: 1.4rem;
 }
 
 .project-tile h2 {
-    color: rgb(76, 100, 124);
-    margin: 0;
-}
-
-.project-tile img {
-    width: 100%;
-    height: auto;
-    
+    color:rgb(185, 188, 190);
+    background-color: rgb(97, 119, 141);
+    font-size: 1.6rem;
 }
 
 .profile-header {
