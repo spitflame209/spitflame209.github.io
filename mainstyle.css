@@ -156,5 +156,7 @@ footer {
     }
     .project-tile h2 {
         font-size: 1.4rem;
+        margin-right: 10%;
+        margin-left: 10%;
     }
   }
