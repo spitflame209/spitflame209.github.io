@@ -69,8 +69,8 @@ a:visited {
     display: grid;
     padding: 1rem;
     gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(40vw, 1fr));
-    grid-template-rows: 40vh 40vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     background-color:  rgb(76, 100, 124);
 }
 
@@ -82,6 +82,12 @@ a:visited {
 
 .survey {
     background-image: url(profilepageassets/Surveypagesnip.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.wpadmin {
+    background-image: url(profilepageassets/wpadminBCC.png);
     background-size: cover;
     background-position: center;
 }
@@ -150,6 +156,14 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
+    .projects-section {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        gap: .2rem;
+    }
+    .project-tile {
+        border-style: none;
+    }
     .project-tile h2 {
         font-size: 1.2rem;
         margin-right: 5%;
