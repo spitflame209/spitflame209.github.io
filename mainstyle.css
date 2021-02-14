@@ -1,172 +1,171 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-size: 10px;
-    margin: 0;
-    height: 100%;
-    background-color: rgb(97, 119, 141);
+  font-size: 10px;
+  margin: 0;
+  height: 100%;
+  background-color: rgb(97, 119, 141);
 }
 
 a {
-    color:rgb(185, 188, 190);
-    text-decoration: none;
+  color: rgb(185, 188, 190);
+  text-decoration: none;
 }
 
 a:visited {
-    color: rgb(185, 188, 190);
-    text-decoration: none;
+  color: rgb(185, 188, 190);
+  text-decoration: none;
 }
 
-
 .navigation {
-    overflow: hidden;
-    position: fixed;
-    height: 3rem;
-    top: 0;
-    width: 100%;
-    background-color: rgb(97, 119, 141);
+  overflow: hidden;
+  position: fixed;
+  height: 3rem;
+  top: 0;
+  width: 100%;
+  background-color: rgb(97, 119, 141);
 }
 
 .navigation a {
-    display: block;
-    color: rgb(185, 188, 190);
-    text-align: center;
-    padding: 1rem 1rem 1rem;
-    text-decoration: none;
-    font-size: 16px;
-    float: right;
+  display: block;
+  color: rgb(185, 188, 190);
+  text-align: center;
+  padding: 1rem 1rem 1rem;
+  text-decoration: none;
+  font-size: 16px;
+  float: right;
 }
 
 .welcome-section {
-    margin-top: 3rem;
-    height: 100vh;
-    background-color: rgb(185, 188, 190);
-    display: grid;
-    text-align: center;
-    align-content: center;
+  margin-top: 3rem;
+  height: 100vh;
+  background-color: rgb(185, 188, 190);
+  display: grid;
+  text-align: center;
+  align-content: center;
 }
 
 .welcome-section h1 {
-    color: rgb(76, 100, 124);
-    font-size: 2.4rem;
+  color: rgb(76, 100, 124);
+  font-size: 2.4rem;
 }
 
 .welcome-section p {
-    color: rgb(76, 100, 124);
-    font-size: 1.8rem;
+  color: rgb(76, 100, 124);
+  font-size: 1.8rem;
 }
 
 #projects {
-    padding-top: 3rem;
-    margin-top: -3rem;
+  padding-top: 3rem;
+  margin-top: -3rem;
 }
 
 .projects-section {
-    height: 100vh;
-    align-content: center;
-    display: grid;
-    padding: 1rem;
-    gap: 1rem;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    background-color:  rgb(76, 100, 124);
+  height: 100vh;
+  align-content: center;
+  display: grid;
+  padding: 1rem;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  background-color: rgb(76, 100, 124);
 }
 
 .tribute {
-    background-image: url(profilepageassets/Tributepagesnip.png);    
-    background-size: cover;
-    background-position: center;
+  background-image: url(profilepageassets/Tributepagesnip.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .survey {
-    background-image: url(profilepageassets/Surveypagesnip.png);
-    background-size: cover;
-    background-position: center;
+  background-image: url(profilepageassets/Surveypagesnip.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .wpadmin {
-    background-image: url(profilepageassets/wpadminBCC.png);
-    background-size: cover;
-    background-position: center;
+  background-image: url(profilepageassets/wpadminBCC.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .product {
-    background-image: url(profilepageassets/ProductPage.png);
-    background-size: cover;
-    background-position: center;
+  background-image: url(profilepageassets/ProductPage.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .techdoc {
-    background-image: url(profilepageassets/TechDocpagesnip.png);
-    background-size: cover;
-    background-position: center;
+  background-image: url(profilepageassets/TechDocpagesnip.png);
+  background-size: cover;
+  background-position: center;
 }
 
 .project-tile {
-    border-style: solid;
-    border-color: rgb(97, 119, 141);
-    border-radius: 10px;
-    display: grid;
-    align-items: center;
-    text-align: center;
+  border-style: solid;
+  border-color: rgb(97, 119, 141);
+  border-radius: 10px;
+  display: grid;
+  align-items: center;
+  text-align: center;
 }
 
 .project-tile h2 {
-    color: white;
-    background-color: rgb(97, 119, 141);
-    font-size: 2rem;
-    margin-right: 20%;
-    margin-left: 20%;
+  color: white;
+  background-color: rgb(97, 119, 141);
+  font-size: 2rem;
+  margin-right: 20%;
+  margin-left: 20%;
 }
 
 .profile-header {
-    display: block;
-    margin: 3rem;
-    text-align: center;
-    font-size: 1.4rem;
-    color:rgb(185, 188, 190)
+  display: block;
+  margin: 3rem;
+  text-align: center;
+  font-size: 1.4rem;
+  color: rgb(185, 188, 190);
 }
 
 #profiles {
-    padding-top: 3rem;
-    margin-top: 3rem;
-    padding-bottom: 3rem;
+  padding-top: 3rem;
+  margin-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .profiles {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-    grid-auto-rows: 2rem;
-    grid-gap: 1rem;
-    background-color:  rgb(185, 188, 190);
-    text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  grid-auto-rows: 2rem;
+  grid-gap: 1rem;
+  background-color: rgb(185, 188, 190);
+  text-align: center;
 }
 
 .profile-link {
-    font-size: 1.2rem;
-    background-color: rgb(76, 100, 124);
-    padding: .5rem;
+  font-size: 1.2rem;
+  background-color: rgb(76, 100, 124);
+  padding: 0.5rem;
 }
 
 footer {
-    text-align: center;
-    color: rgb(185, 188, 190);
+  text-align: center;
+  color: rgb(185, 188, 190);
 }
 
 @media only screen and (max-width: 768px) {
-    .projects-section {
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-        gap: .2rem;
-    }
-    .project-tile {
-        border-style: none;
-    }
-    .project-tile h2 {
-        font-size: 1.2rem;
-        margin-right: 5%;
-        margin-left: 5%;
-    }
+  .projects-section {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0.2rem;
   }
+  .project-tile {
+    border-style: none;
+  }
+  .project-tile h2 {
+    font-size: 1.2rem;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+}
