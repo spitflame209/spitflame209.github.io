@@ -68,7 +68,7 @@ a:visited {
   display: grid;
   padding: 1rem;
   gap: 1rem;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   background-color: rgb(76, 100, 124);
 }
