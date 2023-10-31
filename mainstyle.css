@@ -91,11 +91,6 @@ a:visited {
   background-position: center;
 }
 
-.product {
-  background-image: url(profilepageassets/ProductPage.png);
-  background-size: cover;
-  background-position: center;
-}
 
 .techdoc {
   background-image: url(profilepageassets/TechDocpagesnip.png);
