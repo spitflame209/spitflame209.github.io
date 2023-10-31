@@ -152,7 +152,7 @@ footer {
 @media only screen and (max-width: 768px) {
   .projects-section {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 0.2rem;
   }
   .project-tile {
